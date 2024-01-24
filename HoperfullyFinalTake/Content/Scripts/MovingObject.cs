@@ -16,7 +16,6 @@ namespace HoperfullyFinalTake.Content.Scripts
     {
         [SerializedField]
         private double Speed = 10;
-        private double time = 0;
         public override void Start()
         {
 

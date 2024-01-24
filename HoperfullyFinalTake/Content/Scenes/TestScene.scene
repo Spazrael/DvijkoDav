@@ -13,13 +13,15 @@ SerializableObjects:
 - !Transform
   instanceId: 0cc0e73ffe5e42578894725291bd0507
   gameObject: c30c59148f384d91991060ade514b54f
+  Position:
+    z: -1
   Rotation:
     w: 6.123233995736766E-17
     y: 1
   Scale:
     x: 50
-    y: 50
-    z: 1
+    y: 5
+    z: 2
 - !MeshComponent
   instanceId: a577aab337b74550810d14ba3810ba85
   gameObject: c30c59148f384d91991060ade514b54f
@@ -148,10 +150,11 @@ SerializableObjects:
   instanceId: be0ebb09a96f41c1a88b4c7051d8f1c2
   gameObject: 096570bfd0ea4e938cef4726a010d09e
   Position:
-    y: -20
-    z: 10
+    y: -10
+    z: 5
   Rotation:
-    w: 1
+    w: 0.9961946980917455
+    z: -0.08715574274765817
   Scale:
     x: 1
     y: 1
@@ -181,7 +184,7 @@ SerializableObjects:
   instanceId: 03150956b641415abde52d78598cdf95
   gameObject: 053f337111c84cc38cd032c49087e63d
   Position:
-    x: 15
+    x: 40
     z: 5
   Rotation:
     w: 1
@@ -215,7 +218,7 @@ SerializableObjects:
     y: 1
   Scale:
     x: 50
-    y: 50
+    y: 5
     z: 1
 - !MeshComponent
   instanceId: c6c768e7cc8942fabe804c64c17688bd
@@ -257,7 +260,7 @@ SerializableObjects:
   instanceId: 0fc9b0a106ea408ba52a51f5f3de6953
   gameObject: a797a5721b19432ab23f15ec4667ce51
   Position:
-    y: 50
+    y: -10
   Rotation:
     w: 1
   Scale:
@@ -275,3 +278,409 @@ SerializableObjects:
     z: 1
   radius: 100
   intensity: 0.6
+- !GameObject
+  instanceId: 57bc2e325f6c4e91b2353372584ce074
+  name: Background
+  localEnabled: true
+  transform: 53dd6e12da354a08b2bbdb56257157a0
+  components:
+  - 53dd6e12da354a08b2bbdb56257157a0
+  - 605d79e9558a406caa2f801ce0de7262
+  - 64dfb691185f4e4d8cdf237d98feabfc
+- !Transform
+  instanceId: 53dd6e12da354a08b2bbdb56257157a0
+  gameObject: 57bc2e325f6c4e91b2353372584ce074
+  Position:
+    x: 150
+    y: 70
+    z: 80
+  Rotation:
+    w: 6.123233995736766E-17
+    z: 1
+  Scale:
+    x: 3
+    y: 3
+    z: 3
+- !MeshComponent
+  instanceId: 605d79e9558a406caa2f801ce0de7262
+  gameObject: 57bc2e325f6c4e91b2353372584ce074
+  localEnabled: true
+  model: 4bf0495d8958465cb0365ec1bd692015
+  materials:
+  - c11db1d8c650481b8043bb0278cb0dbf
+- !BackgroundMovingObject
+  instanceId: 64dfb691185f4e4d8cdf237d98feabfc
+  gameObject: 57bc2e325f6c4e91b2353372584ce074
+  localEnabled: true
+  Speed: 3
+  respawnPositionX: -200
+- !GameObject
+  instanceId: 8e6f85ddf8a04f47801369e8067997fa
+  name: Light
+  localEnabled: true
+  transform: 6c3f9844e8ac4dbaa3eab14b010c2ad8
+  components:
+  - 6c3f9844e8ac4dbaa3eab14b010c2ad8
+  - 67ade9020be64b658444fdbbbd1a0cc8
+- !Transform
+  instanceId: 6c3f9844e8ac4dbaa3eab14b010c2ad8
+  gameObject: 8e6f85ddf8a04f47801369e8067997fa
+  Position:
+    y: 50
+  Rotation:
+    w: 1
+  Scale:
+    x: 1
+    y: 1
+    z: 1
+- !PointLight
+  instanceId: 67ade9020be64b658444fdbbbd1a0cc8
+  gameObject: 8e6f85ddf8a04f47801369e8067997fa
+  localEnabled: true
+  brightness: 1
+  Color:
+    x: 1
+    y: 1
+    z: 1
+  radius: 100
+  intensity: 0.6
+- !GameObject
+  instanceId: 509d4338ada744abb930324d540ba1d8
+  name: BackgroundRing
+  localEnabled: true
+  transform: f6e9f165c7c3450ca5c4dfa24e6c0604
+  components:
+  - f6e9f165c7c3450ca5c4dfa24e6c0604
+  - d13b087234e64ef3b088f47b84699210
+  - 2e753421db944080920937b6949af38a
+- !Transform
+  instanceId: f6e9f165c7c3450ca5c4dfa24e6c0604
+  gameObject: 509d4338ada744abb930324d540ba1d8
+  Position:
+    x: 200
+    y: 20
+    z: 30
+  Rotation:
+    w: 0.6532814824381883
+    x: 0.2705980500730985
+    y: 0.6532814824381883
+    z: -0.2705980500730985
+  Scale:
+    x: 0.7
+    y: 0.7
+    z: 0.7
+- !MeshComponent
+  instanceId: d13b087234e64ef3b088f47b84699210
+  gameObject: 509d4338ada744abb930324d540ba1d8
+  localEnabled: true
+  model: 78924b0cdbc0458f9e641cf314880fd3
+  materials:
+  - 72ca5cab0476484f96bf00e64fa59b97
+  - 72ca5cab0476484f96bf00e64fa59b97
+  - 72ca5cab0476484f96bf00e64fa59b97
+- !BackgroundMovingObject
+  instanceId: 2e753421db944080920937b6949af38a
+  gameObject: 509d4338ada744abb930324d540ba1d8
+  localEnabled: true
+  Speed: 3.4
+  respawnPositionX: -220
+- !GameObject
+  instanceId: 03af6432a98b4ec98fe1f4c343838d3d
+  name: BackgroundRing
+  localEnabled: true
+  transform: 126e6f82fbb340db9a968075f14ce747
+  components:
+  - 126e6f82fbb340db9a968075f14ce747
+  - 7197a055f1874070ace43a6998f27408
+  - abc17ce7ce3f4e61b8298c06418a5417
+- !Transform
+  instanceId: 126e6f82fbb340db9a968075f14ce747
+  gameObject: 03af6432a98b4ec98fe1f4c343838d3d
+  Position:
+    x: 300
+    y: 20
+    z: 30
+  Rotation:
+    w: 0.6532814824381883
+    x: 0.0922959556412573
+    y: -0.7010573846499779
+    z: 0.2705980500730985
+  Scale:
+    x: 0.7
+    y: 0.7
+    z: 0.7
+- !MeshComponent
+  instanceId: 7197a055f1874070ace43a6998f27408
+  gameObject: 03af6432a98b4ec98fe1f4c343838d3d
+  localEnabled: true
+  model: 78924b0cdbc0458f9e641cf314880fd3
+  materials:
+  - 72ca5cab0476484f96bf00e64fa59b97
+  - 72ca5cab0476484f96bf00e64fa59b97
+  - 72ca5cab0476484f96bf00e64fa59b97
+- !BackgroundMovingObject
+  instanceId: abc17ce7ce3f4e61b8298c06418a5417
+  gameObject: 03af6432a98b4ec98fe1f4c343838d3d
+  localEnabled: true
+  Speed: 3
+  respawnPositionX: -200
+- !GameObject
+  instanceId: 7ce37e6e3b3d4079bfc9e26e466f71d2
+  name: PointLight
+  localEnabled: true
+  transform: 541b8d3b1d26428393a192f01fdd982d
+  components:
+  - 541b8d3b1d26428393a192f01fdd982d
+  - 054a9652fc12411db6cd3cb9a05c21d5
+  - a0d0ac82fc284f5b94d2d0c6cd6c176e
+- !Transform
+  instanceId: 541b8d3b1d26428393a192f01fdd982d
+  gameObject: 7ce37e6e3b3d4079bfc9e26e466f71d2
+  Position:
+    x: 100
+    y: 20
+    z: 3
+  Rotation:
+    w: 1
+  Scale:
+    x: 1
+    y: 1
+    z: 1
+- !PointLight
+  instanceId: 054a9652fc12411db6cd3cb9a05c21d5
+  gameObject: 7ce37e6e3b3d4079bfc9e26e466f71d2
+  localEnabled: true
+  brightness: 1
+  Color:
+    x: 1
+    y: 1
+    z: 1
+  radius: 20
+  intensity: 1
+- !BackgroundMovingObject
+  instanceId: a0d0ac82fc284f5b94d2d0c6cd6c176e
+  gameObject: 7ce37e6e3b3d4079bfc9e26e466f71d2
+  localEnabled: true
+  Speed: 11
+  respawnPositionX: -40
+- !GameObject
+  instanceId: 1bbb33f515d84b13a53a2c260e48162f
+  name: Pristroika1GameObject
+  localEnabled: true
+  transform: 318f11294bdb468fa791c64ce9f91178
+  components:
+  - 318f11294bdb468fa791c64ce9f91178
+  - 8c612683afb34b45be093e7c37a04aba
+  - fbb6bddc272c406a8884b81ec9a64da3
+- !Transform
+  instanceId: 318f11294bdb468fa791c64ce9f91178
+  gameObject: 1bbb33f515d84b13a53a2c260e48162f
+  Position:
+    x: 140
+    y: 25
+  Rotation:
+    w: 5.657130561438501E-17
+    x: 0.3826834323650898
+    y: 0.9238795325112867
+    z: 2.3432602026631493E-17
+  Scale:
+    x: 0.7
+    y: 0.7
+    z: 0.7
+- !MeshComponent
+  instanceId: 8c612683afb34b45be093e7c37a04aba
+  gameObject: 1bbb33f515d84b13a53a2c260e48162f
+  localEnabled: true
+  model: dfc4345bdc4b4c2f891bd839772cdf26
+  materials:
+  - 4875a168a408457f889e6a7c97b2c50f
+- !BackgroundMovingObject
+  instanceId: fbb6bddc272c406a8884b81ec9a64da3
+  gameObject: 1bbb33f515d84b13a53a2c260e48162f
+  localEnabled: true
+  Speed: 8
+  respawnPositionX: -70
+- !GameObject
+  instanceId: 4c2f76e6ff4a470492d5bb0a51436a93
+  name: Pristroika2GameObject
+  localEnabled: true
+  transform: e3be82ab077149a59ec5da0827c1f8a1
+  components:
+  - e3be82ab077149a59ec5da0827c1f8a1
+  - decd9303f3a5483485c8a3611cee0611
+  - edacafc7c2b9430cbdfcf34a2ec1a4d7
+- !Transform
+  instanceId: e3be82ab077149a59ec5da0827c1f8a1
+  gameObject: 4c2f76e6ff4a470492d5bb0a51436a93
+  Position:
+    x: 170
+    y: 25
+    z: 5
+  Rotation:
+    w: 2.0942693688384965E-17
+    x: 0.9396926207859083
+    y: 0.3420201433256688
+    z: 5.753957801139251E-17
+  Scale:
+    x: 1.3
+    y: 1.3
+    z: 1.3
+- !MeshComponent
+  instanceId: decd9303f3a5483485c8a3611cee0611
+  gameObject: 4c2f76e6ff4a470492d5bb0a51436a93
+  localEnabled: true
+  model: 1b832863455e4e9ebab0959ad59fb4cf
+  materials:
+  - f9c4f53ae2a04c65afcbd0eb1b169a75
+- !BackgroundMovingObject
+  instanceId: edacafc7c2b9430cbdfcf34a2ec1a4d7
+  gameObject: 4c2f76e6ff4a470492d5bb0a51436a93
+  localEnabled: true
+  Speed: 7
+  respawnPositionX: -60
+- !GameObject
+  instanceId: 52df3934f53e4743800b6d2475bf9af9
+  name: Pristroika3GameObject
+  localEnabled: true
+  transform: 4dc2e90c475b44bfa963995d047326e4
+  components:
+  - 4dc2e90c475b44bfa963995d047326e4
+  - ced3f6b5a2eb485286132adcaaaf5cc8
+  - 7f8d72cbd0f34aaabe90286443bc4178
+- !Transform
+  instanceId: 4dc2e90c475b44bfa963995d047326e4
+  gameObject: 52df3934f53e4743800b6d2475bf9af9
+  Position:
+    x: 200
+    y: 22
+    z: 5
+  Rotation:
+    w: 2.0942693688384965E-17
+    x: 0.9396926207859083
+    y: 0.3420201433256688
+    z: 5.753957801139251E-17
+  Scale:
+    x: 1.3
+    y: 1.3
+    z: 1.3
+- !MeshComponent
+  instanceId: ced3f6b5a2eb485286132adcaaaf5cc8
+  gameObject: 52df3934f53e4743800b6d2475bf9af9
+  localEnabled: true
+  model: 56b6448cab13445dad1f21232075f2d9
+  materials:
+  - 8dccb10903df4515995545759a8772d2
+- !BackgroundMovingObject
+  instanceId: 7f8d72cbd0f34aaabe90286443bc4178
+  gameObject: 52df3934f53e4743800b6d2475bf9af9
+  localEnabled: true
+  Speed: 6.5
+  respawnPositionX: -70
+- !GameObject
+  instanceId: e639dfeb5595478982200732ce9bc646
+  name: Pristroika4GameObject
+  localEnabled: true
+  transform: b850119ef29642c0a9cc97a44dc1cd56
+  components:
+  - b850119ef29642c0a9cc97a44dc1cd56
+  - 58bab3434c7b425bb3c36daf2666b97b
+  - 357ec52e52da4d91b2158295b3031a55
+- !Transform
+  instanceId: b850119ef29642c0a9cc97a44dc1cd56
+  gameObject: e639dfeb5595478982200732ce9bc646
+  Position:
+    x: 300
+    y: 24
+    z: 5
+  Rotation:
+    w: 2.0942693688384965E-17
+    x: 0.9396926207859083
+    y: 0.3420201433256688
+    z: 5.753957801139251E-17
+  Scale:
+    x: 1.3
+    y: 1.3
+    z: 1.3
+- !MeshComponent
+  instanceId: 58bab3434c7b425bb3c36daf2666b97b
+  gameObject: e639dfeb5595478982200732ce9bc646
+  localEnabled: true
+  model: 619a8f6439ae4ca4ad7ba06d997026f6
+  materials:
+  - 9ea83e63a9da48cbabd3c67cd7f5f988
+- !BackgroundMovingObject
+  instanceId: 357ec52e52da4d91b2158295b3031a55
+  gameObject: e639dfeb5595478982200732ce9bc646
+  localEnabled: true
+  Speed: 7
+  respawnPositionX: -100
+- !GameObject
+  instanceId: 4d24c9b5fc7f4711be9face4bb51374b
+  name: Background
+  localEnabled: true
+  transform: 6dd0fcb60ff74640ae2f1b7854395367
+  components:
+  - 6dd0fcb60ff74640ae2f1b7854395367
+  - 86a56abb65b84b0f99e516c202a17995
+  - c5119ccfa94e4f97b5639455b87aa1df
+- !Transform
+  instanceId: 6dd0fcb60ff74640ae2f1b7854395367
+  gameObject: 4d24c9b5fc7f4711be9face4bb51374b
+  Position:
+    x: 150
+    y: -6
+    z: 40
+  Rotation:
+    w: 1
+  Scale:
+    x: 0.2
+    y: 0.2
+    z: 1
+- !MeshComponent
+  instanceId: 86a56abb65b84b0f99e516c202a17995
+  gameObject: 4d24c9b5fc7f4711be9face4bb51374b
+  localEnabled: true
+  model: 4bf0495d8958465cb0365ec1bd692015
+  materials:
+  - c11db1d8c650481b8043bb0278cb0dbf
+- !BackgroundMovingObject
+  instanceId: c5119ccfa94e4f97b5639455b87aa1df
+  gameObject: 4d24c9b5fc7f4711be9face4bb51374b
+  localEnabled: true
+  Speed: 20
+  respawnPositionX: -100
+- !GameObject
+  instanceId: 9c05979bc5a24115abce29a59d27ebe1
+  name: Background
+  localEnabled: true
+  transform: 1a0c857618184905990e5d893119937d
+  components:
+  - 1a0c857618184905990e5d893119937d
+  - 2353b04252434ee5817ccfb0d6623101
+  - 2d03226e04d04040b1f708534225e9be
+- !Transform
+  instanceId: 1a0c857618184905990e5d893119937d
+  gameObject: 9c05979bc5a24115abce29a59d27ebe1
+  Position:
+    x: 150
+    y: 40
+    z: 40
+  Rotation:
+    w: 1
+  Scale:
+    x: 2
+    y: 2
+    z: 2
+- !MeshComponent
+  instanceId: 2353b04252434ee5817ccfb0d6623101
+  gameObject: 9c05979bc5a24115abce29a59d27ebe1
+  localEnabled: true
+  model: 4bf0495d8958465cb0365ec1bd692015
+  materials:
+  - c11db1d8c650481b8043bb0278cb0dbf
+- !BackgroundMovingObject
+  instanceId: 2d03226e04d04040b1f708534225e9be
+  gameObject: 9c05979bc5a24115abce29a59d27ebe1
+  localEnabled: true
+  Speed: 5
+  respawnPositionX: -100

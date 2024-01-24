@@ -73,6 +73,46 @@ pathToGuidsMap:
   - f89b18b2966a4371a9b7f2cf9c26be71
   Textures\cube_DefaultMaterial_BaseMap.png:
   - 3d79061ad7a0459b8336cd6dffde0a43
+  Models\BigTower1.fbx:
+  - 39675e856edb4b71a7974f86a64e2e2a
+  - 4bf0495d8958465cb0365ec1bd692015
+  Textures\BigTower1_DefaultMaterial_BaseColor.png:
+  - 4e1df68e79564c6286a9f2764e630d72
+  Models\BigTower1.mat:
+  - c11db1d8c650481b8043bb0278cb0dbf
+  Models\RaceMapGiantRing.fbx:
+  - 72ca5cab0476484f96bf00e64fa59b97
+  - 78924b0cdbc0458f9e641cf314880fd3
+  Scripts\BackgroundMovingObject.cs:
+  - 85a97ab35c694b97b580b725d71ae952
+  Models\Pristroika1.fbx:
+  - 301913f18a544617a39f4df09c130502
+  - dfc4345bdc4b4c2f891bd839772cdf26
+  Models\Pristroika2.fbx:
+  - 28cfc3231e064754a2ad3943446da6c8
+  - 1b832863455e4e9ebab0959ad59fb4cf
+  Models\Pristroika3_Cube_005.fbx:
+  - 56d3dc9c05ac4ddf87b147ca71175027
+  - 56b6448cab13445dad1f21232075f2d9
+  Models\Pristroika4.fbx:
+  - 86a04e7669de46279030531803b2a30b
+  - 619a8f6439ae4ca4ad7ba06d997026f6
+  Textures\Pristroika4.png:
+  - 2cbae6d6b45b460fa3144fca09306a32
+  Textures\Pristroika2_DefaultMaterial_BaseColor.png:
+  - b6db4bde28444507b39b9272768c665c
+  Textures\Pristroika3.png:
+  - 86fc1929f94f42418992dff9c4fa69cf
+  Models\Pristroika2.mat:
+  - f9c4f53ae2a04c65afcbd0eb1b169a75
+  Models\Pristroika3.mat:
+  - 8dccb10903df4515995545759a8772d2
+  Models\Pristroika4.mat:
+  - 9ea83e63a9da48cbabd3c67cd7f5f988
+  Textures\WallBuilding1.png:
+  - 7f46fa941f4d464a98e724c91fcf2c2f
+  Models\Pristroika1.mat:
+  - 4875a168a408457f889e6a7c97b2c50f
 guidToDataTypeMap:
   e2f3863aca874599950c84d216e89ea1: Engine.AssetsData.MaterialData, Engine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   7b299d8a440d456eb999c0980201e9f7: Engine.AssetsData.ModelData, Engine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
@@ -111,3 +151,26 @@ guidToDataTypeMap:
   02d4c14179a84d8bbe2d992419857ec1: Engine.AssetsData.ShaderData, Engine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   f89b18b2966a4371a9b7f2cf9c26be71: Engine.AssetsData.ScriptData, Engine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   3d79061ad7a0459b8336cd6dffde0a43: Engine.AssetsData.TextureData, Engine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  39675e856edb4b71a7974f86a64e2e2a: Engine.AssetsData.MaterialData, Engine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  4bf0495d8958465cb0365ec1bd692015: Engine.AssetsData.ModelData, Engine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  4e1df68e79564c6286a9f2764e630d72: Engine.AssetsData.TextureData, Engine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  c11db1d8c650481b8043bb0278cb0dbf: Engine.AssetsData.MaterialData, Engine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  72ca5cab0476484f96bf00e64fa59b97: Engine.AssetsData.MaterialData, Engine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  78924b0cdbc0458f9e641cf314880fd3: Engine.AssetsData.ModelData, Engine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  85a97ab35c694b97b580b725d71ae952: Engine.AssetsData.ScriptData, Engine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  301913f18a544617a39f4df09c130502: Engine.AssetsData.MaterialData, Engine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  dfc4345bdc4b4c2f891bd839772cdf26: Engine.AssetsData.ModelData, Engine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  28cfc3231e064754a2ad3943446da6c8: Engine.AssetsData.MaterialData, Engine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  1b832863455e4e9ebab0959ad59fb4cf: Engine.AssetsData.ModelData, Engine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  56d3dc9c05ac4ddf87b147ca71175027: Engine.AssetsData.MaterialData, Engine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  56b6448cab13445dad1f21232075f2d9: Engine.AssetsData.ModelData, Engine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  86a04e7669de46279030531803b2a30b: Engine.AssetsData.MaterialData, Engine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  619a8f6439ae4ca4ad7ba06d997026f6: Engine.AssetsData.ModelData, Engine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  2cbae6d6b45b460fa3144fca09306a32: Engine.AssetsData.TextureData, Engine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  b6db4bde28444507b39b9272768c665c: Engine.AssetsData.TextureData, Engine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  86fc1929f94f42418992dff9c4fa69cf: Engine.AssetsData.TextureData, Engine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  f9c4f53ae2a04c65afcbd0eb1b169a75: Engine.AssetsData.MaterialData, Engine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  8dccb10903df4515995545759a8772d2: Engine.AssetsData.MaterialData, Engine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  9ea83e63a9da48cbabd3c67cd7f5f988: Engine.AssetsData.MaterialData, Engine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  7f46fa941f4d464a98e724c91fcf2c2f: Engine.AssetsData.TextureData, Engine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  4875a168a408457f889e6a7c97b2c50f: Engine.AssetsData.MaterialData, Engine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null

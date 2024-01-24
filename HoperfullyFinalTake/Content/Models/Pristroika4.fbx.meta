@@ -1,0 +1,9 @@
+ImporterVersion: 3
+Guid: 619a8f6439ae4ca4ad7ba06d997026f6
+SubAssets:
+  ? Item1: Engine.AssetsData.MaterialData, Engine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    Item2: DefaultMaterial
+  : 86a04e7669de46279030531803b2a30b
+ImportSettings: !ModelImportSettings
+  MeshMaterialsOverride:
+    Pristroika_Cylinder.030_0: 86a04e7669de46279030531803b2a30b

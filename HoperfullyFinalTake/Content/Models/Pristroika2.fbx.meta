@@ -1,0 +1,9 @@
+ImporterVersion: 3
+Guid: 1b832863455e4e9ebab0959ad59fb4cf
+SubAssets:
+  ? Item1: Engine.AssetsData.MaterialData, Engine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    Item2: DefaultMaterial
+  : 28cfc3231e064754a2ad3943446da6c8
+ImportSettings: !ModelImportSettings
+  MeshMaterialsOverride:
+    Cube.023_Cube.014_0: 28cfc3231e064754a2ad3943446da6c8

@@ -1,0 +1,11 @@
+ImporterVersion: 3
+Guid: 78924b0cdbc0458f9e641cf314880fd3
+SubAssets:
+  ? Item1: Engine.AssetsData.MaterialData, Engine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    Item2: DefaultMaterial
+  : 72ca5cab0476484f96bf00e64fa59b97
+ImportSettings: !ModelImportSettings
+  MeshMaterialsOverride:
+    Cylinder.004_Cylinder_0: 72ca5cab0476484f96bf00e64fa59b97
+    Cylinder.004_RLExtr_.temp_1: 72ca5cab0476484f96bf00e64fa59b97
+    Cylinder.004_RLExtr.001_.temp.002_2: 72ca5cab0476484f96bf00e64fa59b97

@@ -1,0 +1,9 @@
+ImporterVersion: 3
+Guid: dfc4345bdc4b4c2f891bd839772cdf26
+SubAssets:
+  ? Item1: Engine.AssetsData.MaterialData, Engine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    Item2: DefaultMaterial
+  : 301913f18a544617a39f4df09c130502
+ImportSettings: !ModelImportSettings
+  MeshMaterialsOverride:
+    Cylinder.005_Cylinder.012_0: 301913f18a544617a39f4df09c130502

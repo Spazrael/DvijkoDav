@@ -1,0 +1,9 @@
+ImporterVersion: 3
+Guid: 56b6448cab13445dad1f21232075f2d9
+SubAssets:
+  ? Item1: Engine.AssetsData.MaterialData, Engine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    Item2: DefaultMaterial
+  : 56d3dc9c05ac4ddf87b147ca71175027
+ImportSettings: !ModelImportSettings
+  MeshMaterialsOverride:
+    Prostroika_Cube.036_0: 56d3dc9c05ac4ddf87b147ca71175027
