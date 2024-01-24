@@ -92,7 +92,7 @@ SerializableObjects:
   instanceId: a7fdc642227340b792d1098399d19088
   gameObject: 919d7ecadff54587b5997270dc68925c
   Position:
-    z: 10
+    z: 3
   Rotation:
     w: 1
   Scale:
@@ -167,3 +167,35 @@ SerializableObjects:
   instanceId: 16b3b9c16c0044328ea6033c84cf0b2d
   gameObject: 096570bfd0ea4e938cef4726a010d09e
   localEnabled: true
+- !GameObject
+  instanceId: f5d39199446d401cb84cb6a9c433c6bf
+  name: Obstacle
+  localEnabled: true
+  transform: 79248c597133444c9fe0d8d8270522ed
+  components:
+  - 79248c597133444c9fe0d8d8270522ed
+  - 3b5afb6d9b83451c81abd64c0170177a
+  - 836d313cdf704bbc9ef7fd4c08838c83
+- !Transform
+  instanceId: 79248c597133444c9fe0d8d8270522ed
+  gameObject: f5d39199446d401cb84cb6a9c433c6bf
+  Position:
+    z: 10
+  Rotation:
+    w: 1
+  Scale:
+    x: 1
+    y: 1
+    z: 1
+- !MeshComponent
+  instanceId: 3b5afb6d9b83451c81abd64c0170177a
+  gameObject: f5d39199446d401cb84cb6a9c433c6bf
+  localEnabled: true
+  model: 7b299d8a440d456eb999c0980201e9f7
+  materials:
+  - e2f3863aca874599950c84d216e89ea1
+- !MovingObject
+  instanceId: 836d313cdf704bbc9ef7fd4c08838c83
+  gameObject: f5d39199446d401cb84cb6a9c433c6bf
+  localEnabled: true
+  Speed: 5
