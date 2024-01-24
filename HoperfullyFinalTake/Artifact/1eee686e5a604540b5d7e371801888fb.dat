@@ -1,0 +1,85 @@
+!SceneData
+SerializableObjects:
+- !GameObject
+  instanceId: c30c59148f384d91991060ade514b54f
+  name: Floor
+  localEnabled: true
+  transform: 0cc0e73ffe5e42578894725291bd0507
+  components:
+  - 0cc0e73ffe5e42578894725291bd0507
+  - a577aab337b74550810d14ba3810ba85
+  - 564dc8ce023248fcb383b4e45777c353
+  - 8c321ba266604d5ea63bfd2061fb1688
+  - c75888864c6148769453003f4e692d5b
+- !Transform
+  instanceId: 0cc0e73ffe5e42578894725291bd0507
+  gameObject: c30c59148f384d91991060ade514b54f
+  Rotation:
+    w: 1
+  Scale:
+    x: 50
+    y: 50
+    z: 1
+- !MeshComponent
+  instanceId: a577aab337b74550810d14ba3810ba85
+  gameObject: c30c59148f384d91991060ade514b54f
+  localEnabled: true
+  model: 7b299d8a440d456eb999c0980201e9f7
+  materials:
+  - e2f3863aca874599950c84d216e89ea1
+- !Rigidbody
+  instanceId: 564dc8ce023248fcb383b4e45777c353
+  gameObject: c30c59148f384d91991060ade514b54f
+  localEnabled: true
+  mass: 1
+  inertiaTensor:
+    x: 1
+    y: 1
+    z: 1
+  linearDrag: 0.05
+  angularDrag: 0.05
+  isStatic: true
+- !CubeCollider
+  instanceId: 8c321ba266604d5ea63bfd2061fb1688
+  gameObject: c30c59148f384d91991060ade514b54f
+  localEnabled: true
+  massPart: 1
+  size:
+    x: 1
+    y: 1
+    z: 1
+- !TestComponent
+  instanceId: c75888864c6148769453003f4e692d5b
+  gameObject: c30c59148f384d91991060ade514b54f
+  localEnabled: true
+  Value: 5
+- !GameObject
+  instanceId: aaf7c5dd1cec4790b1f719cf272c9264
+  name: DirLight
+  localEnabled: true
+  transform: c3a52a3937ee475fac2b57d3f41f8dbe
+  components:
+  - c3a52a3937ee475fac2b57d3f41f8dbe
+  - 1134f17d86a94bf68a036391859989be
+- !Transform
+  instanceId: c3a52a3937ee475fac2b57d3f41f8dbe
+  gameObject: aaf7c5dd1cec4790b1f719cf272c9264
+  Rotation:
+    w: 0.8535533905932737
+    x: -0.35355339059327384
+    y: -0.14644660940672627
+    z: -0.3535533905932738
+  Scale:
+    x: 1
+    y: 1
+    z: 1
+- !DirectionalLight
+  instanceId: 1134f17d86a94bf68a036391859989be
+  gameObject: aaf7c5dd1cec4790b1f719cf272c9264
+  localEnabled: true
+  brightness: 1
+  Color:
+    x: 1
+    y: 1
+    z: 1
+  shadowSize: 4096
