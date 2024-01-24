@@ -38,6 +38,7 @@ SerializableObjects:
   linearDrag: 0.05
   angularDrag: 0.05
   isStatic: true
+  useGravity: true
 - !CubeCollider
   instanceId: bb99b7f7e4ef4319aaec53946b0ddeb0
   gameObject: c30c59148f384d91991060ade514b54f
@@ -118,12 +119,13 @@ SerializableObjects:
   linearDrag: 0.05
   angularDrag: 0.05
   freezeRotationX: true
+  freezeRotationY: true
   freezeRotationZ: true
+  useGravity: true
 - !TestComponent
   instanceId: a99c9d0d4a364cdfbfd66ca9ff346e95
   gameObject: 919d7ecadff54587b5997270dc68925c
   localEnabled: true
-  Value: 5
   Impulse: 5
 - !CubeCollider
   instanceId: 6a68cbb49f084e43a50b7d2dac7ed445
@@ -176,11 +178,14 @@ SerializableObjects:
   - 79248c597133444c9fe0d8d8270522ed
   - 3b5afb6d9b83451c81abd64c0170177a
   - 836d313cdf704bbc9ef7fd4c08838c83
+  - c2b9cb53500d463595eb47820814a116
+  - bc8e480a17e44f01a4555efbd44de4ec
 - !Transform
   instanceId: 79248c597133444c9fe0d8d8270522ed
   gameObject: f5d39199446d401cb84cb6a9c433c6bf
   Position:
-    z: 10
+    x: 10
+    z: 2
   Rotation:
     w: 1
   Scale:
@@ -199,3 +204,86 @@ SerializableObjects:
   gameObject: f5d39199446d401cb84cb6a9c433c6bf
   localEnabled: true
   Speed: 5
+- !CubeCollider
+  instanceId: c2b9cb53500d463595eb47820814a116
+  gameObject: f5d39199446d401cb84cb6a9c433c6bf
+  localEnabled: true
+  massPart: 1
+  size:
+    x: 2
+    y: 2
+    z: 1
+- !Rigidbody
+  instanceId: bc8e480a17e44f01a4555efbd44de4ec
+  gameObject: f5d39199446d401cb84cb6a9c433c6bf
+  localEnabled: true
+  mass: 1
+  inertiaTensor:
+    x: 1
+    y: 1
+    z: 1
+  linearDrag: 0.05
+  angularDrag: 0.05
+  freezeRotationX: true
+  freezeRotationY: true
+  freezeRotationZ: true
+  useGravity: true
+- !GameObject
+  instanceId: 8b6307e920314de1b25112d0b2949c4f
+  name: Obstacle
+  localEnabled: true
+  transform: cb104801dfd54feaaa42a907a325c057
+  components:
+  - cb104801dfd54feaaa42a907a325c057
+  - bd182cbe20ed4e14a65bb890531f5e19
+  - 001aa1abf66b4f9bbceda20af07b07fa
+  - 866cbac8d9b84a01acdad7a98eed0b02
+  - 914e7ef0b3c94c60853aaf3afba911e9
+- !Transform
+  instanceId: cb104801dfd54feaaa42a907a325c057
+  gameObject: 8b6307e920314de1b25112d0b2949c4f
+  Position:
+    x: 10
+    z: 5
+  Rotation:
+    w: 1
+  Scale:
+    x: 1
+    y: 1
+    z: 1
+- !MeshComponent
+  instanceId: bd182cbe20ed4e14a65bb890531f5e19
+  gameObject: 8b6307e920314de1b25112d0b2949c4f
+  localEnabled: true
+  model: 7b299d8a440d456eb999c0980201e9f7
+  materials:
+  - e2f3863aca874599950c84d216e89ea1
+- !MovingObject
+  instanceId: 001aa1abf66b4f9bbceda20af07b07fa
+  gameObject: 8b6307e920314de1b25112d0b2949c4f
+  localEnabled: true
+  Speed: 5
+- !CubeCollider
+  instanceId: 866cbac8d9b84a01acdad7a98eed0b02
+  gameObject: 8b6307e920314de1b25112d0b2949c4f
+  localEnabled: true
+  massPart: 1
+  size:
+    x: 2
+    y: 2
+    z: 1
+- !Rigidbody
+  instanceId: 914e7ef0b3c94c60853aaf3afba911e9
+  gameObject: 8b6307e920314de1b25112d0b2949c4f
+  localEnabled: true
+  mass: 1
+  inertiaTensor:
+    x: 1
+    y: 1
+    z: 1
+  linearDrag: 0.05
+  angularDrag: 0.05
+  freezeRotationX: true
+  freezeRotationY: true
+  freezeRotationZ: true
+  useGravity: true

@@ -67,6 +67,8 @@ pathToGuidsMap:
   - 7b299d8a440d456eb999c0980201e9f7
   Models\FloorTexture.mat:
   - 3b663243c83b4a1fbf4e540bd78b49dc
+  Scripts\MovingObject.cs:
+  - 2bf58e6adeca48548526ed722ecb384e
 guidToDataTypeMap:
   d91d6cbe4f094f37a8167666b765370b: Engine.AssetsData.ShaderData, Engine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   e83c341c8e914295b21e8e440accd61f: Engine.AssetsData.ShaderData, Engine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
@@ -102,3 +104,4 @@ guidToDataTypeMap:
   e2f3863aca874599950c84d216e89ea1: Engine.AssetsData.MaterialData, Engine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   7b299d8a440d456eb999c0980201e9f7: Engine.AssetsData.ModelData, Engine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   3b663243c83b4a1fbf4e540bd78b49dc: Engine.AssetsData.MaterialData, Engine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  2bf58e6adeca48548526ed722ecb384e: Engine.AssetsData.ScriptData, Engine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
