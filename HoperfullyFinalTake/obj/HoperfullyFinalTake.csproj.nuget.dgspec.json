@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Danechka.DESKTOP-OTBEQSB\\Documents\\SharpDxProjects\\HoperfullyFinalTake\\HoperfullyFinalTake.csproj": {}
+    "C:\\Users\\Danechka.DESKTOP-OTBEQSB\\Documents\\SharpDxProjects\\DvijkoDav\\HoperfullyFinalTake\\HoperfullyFinalTake.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Danechka.DESKTOP-OTBEQSB\\Documents\\SharpDxProjects\\HoperfullyFinalTake\\HoperfullyFinalTake.csproj": {
+    "C:\\Users\\Danechka.DESKTOP-OTBEQSB\\Documents\\SharpDxProjects\\DvijkoDav\\HoperfullyFinalTake\\HoperfullyFinalTake.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Danechka.DESKTOP-OTBEQSB\\Documents\\SharpDxProjects\\HoperfullyFinalTake\\HoperfullyFinalTake.csproj",
+        "projectUniqueName": "C:\\Users\\Danechka.DESKTOP-OTBEQSB\\Documents\\SharpDxProjects\\DvijkoDav\\HoperfullyFinalTake\\HoperfullyFinalTake.csproj",
         "projectName": "HoperfullyFinalTake",
-        "projectPath": "C:\\Users\\Danechka.DESKTOP-OTBEQSB\\Documents\\SharpDxProjects\\HoperfullyFinalTake\\HoperfullyFinalTake.csproj",
+        "projectPath": "C:\\Users\\Danechka.DESKTOP-OTBEQSB\\Documents\\SharpDxProjects\\DvijkoDav\\HoperfullyFinalTake\\HoperfullyFinalTake.csproj",
         "packagesPath": "C:\\Users\\Danechka.DESKTOP-OTBEQSB\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Danechka.DESKTOP-OTBEQSB\\Documents\\SharpDxProjects\\HoperfullyFinalTake\\obj\\",
+        "outputPath": "C:\\Users\\Danechka.DESKTOP-OTBEQSB\\Documents\\SharpDxProjects\\DvijkoDav\\HoperfullyFinalTake\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Danechka.DESKTOP-OTBEQSB\\AppData\\Roaming\\NuGet\\NuGet.Config",

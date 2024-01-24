@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
+using System.Threading.Tasks; 
+using LinearAlgebra;
 
 using Engine;
 using Engine.BaseAssets.Components;
@@ -13,13 +14,20 @@ namespace HoperfullyFinalTake.Content.Scripts
     {
         [SerializedField]
         private double Value = 5;
+        [SerializedField]
+        private double Impulse = 5;
+        private Random random = new Random();
         public override void Start()
         {
-            Logger.Log(LogType.Info, $"Start {Value}");
+            
+            
         }
         public override void Update()
         {
-            
+            if (Input.IsKeyPressed(System.Windows.Input.Key.E)) 
+            {
+                GameObject.GetComponent<Rigidbody>()?.AddImpulse(new Vector3(0, 0, 4) * Impulse);
+            }
         }
     }
 }

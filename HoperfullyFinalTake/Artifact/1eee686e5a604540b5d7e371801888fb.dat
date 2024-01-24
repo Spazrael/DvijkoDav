@@ -9,8 +9,7 @@ SerializableObjects:
   - 0cc0e73ffe5e42578894725291bd0507
   - a577aab337b74550810d14ba3810ba85
   - 564dc8ce023248fcb383b4e45777c353
-  - 8c321ba266604d5ea63bfd2061fb1688
-  - c75888864c6148769453003f4e692d5b
+  - bb99b7f7e4ef4319aaec53946b0ddeb0
 - !Transform
   instanceId: 0cc0e73ffe5e42578894725291bd0507
   gameObject: c30c59148f384d91991060ade514b54f
@@ -26,33 +25,28 @@ SerializableObjects:
   localEnabled: true
   model: 7b299d8a440d456eb999c0980201e9f7
   materials:
-  - e2f3863aca874599950c84d216e89ea1
+  - 3b663243c83b4a1fbf4e540bd78b49dc
 - !Rigidbody
   instanceId: 564dc8ce023248fcb383b4e45777c353
   gameObject: c30c59148f384d91991060ade514b54f
   localEnabled: true
   mass: 1
   inertiaTensor:
-    x: 1
-    y: 1
+    x: 2
+    y: 2
     z: 1
   linearDrag: 0.05
   angularDrag: 0.05
   isStatic: true
 - !CubeCollider
-  instanceId: 8c321ba266604d5ea63bfd2061fb1688
+  instanceId: bb99b7f7e4ef4319aaec53946b0ddeb0
   gameObject: c30c59148f384d91991060ade514b54f
   localEnabled: true
   massPart: 1
   size:
-    x: 1
-    y: 1
-    z: 1
-- !TestComponent
-  instanceId: c75888864c6148769453003f4e692d5b
-  gameObject: c30c59148f384d91991060ade514b54f
-  localEnabled: true
-  Value: 5
+    x: 2
+    y: 2
+    z: 2
 - !GameObject
   instanceId: aaf7c5dd1cec4790b1f719cf272c9264
   name: DirLight
@@ -83,3 +77,93 @@ SerializableObjects:
     y: 1
     z: 1
   shadowSize: 4096
+- !GameObject
+  instanceId: 919d7ecadff54587b5997270dc68925c
+  name: Player
+  localEnabled: true
+  transform: a7fdc642227340b792d1098399d19088
+  components:
+  - a7fdc642227340b792d1098399d19088
+  - 76c437d865cb4e6e811105b670244668
+  - 473a3f4c287f41738f8d3b92723fc0c4
+  - a99c9d0d4a364cdfbfd66ca9ff346e95
+  - 6a68cbb49f084e43a50b7d2dac7ed445
+- !Transform
+  instanceId: a7fdc642227340b792d1098399d19088
+  gameObject: 919d7ecadff54587b5997270dc68925c
+  Position:
+    z: 10
+  Rotation:
+    w: 1
+  Scale:
+    x: 1
+    y: 1
+    z: 1
+- !MeshComponent
+  instanceId: 76c437d865cb4e6e811105b670244668
+  gameObject: 919d7ecadff54587b5997270dc68925c
+  localEnabled: true
+  model: 7b299d8a440d456eb999c0980201e9f7
+  materials:
+  - 3b663243c83b4a1fbf4e540bd78b49dc
+- !Rigidbody
+  instanceId: 473a3f4c287f41738f8d3b92723fc0c4
+  gameObject: 919d7ecadff54587b5997270dc68925c
+  localEnabled: true
+  mass: 1
+  inertiaTensor:
+    x: 2
+    y: 2
+    z: 1
+  linearDrag: 0.05
+  angularDrag: 0.05
+  freezeRotationX: true
+  freezeRotationZ: true
+- !TestComponent
+  instanceId: a99c9d0d4a364cdfbfd66ca9ff346e95
+  gameObject: 919d7ecadff54587b5997270dc68925c
+  localEnabled: true
+  Value: 5
+  Impulse: 5
+- !CubeCollider
+  instanceId: 6a68cbb49f084e43a50b7d2dac7ed445
+  gameObject: 919d7ecadff54587b5997270dc68925c
+  localEnabled: true
+  massPart: 1
+  size:
+    x: 2
+    y: 2
+    z: 1
+- !GameObject
+  instanceId: 096570bfd0ea4e938cef4726a010d09e
+  name: Camera
+  localEnabled: true
+  transform: be0ebb09a96f41c1a88b4c7051d8f1c2
+  components:
+  - be0ebb09a96f41c1a88b4c7051d8f1c2
+  - fbc9fa4aa43a4a90a32dde35ee13fa0a
+  - 16b3b9c16c0044328ea6033c84cf0b2d
+- !Transform
+  instanceId: be0ebb09a96f41c1a88b4c7051d8f1c2
+  gameObject: 096570bfd0ea4e938cef4726a010d09e
+  Position:
+    z: 10
+  Rotation:
+    w: 1
+  Scale:
+    x: 1
+    y: 1
+    z: 1
+- !Camera
+  instanceId: fbc9fa4aa43a4a90a32dde35ee13fa0a
+  gameObject: 096570bfd0ea4e938cef4726a010d09e
+  localEnabled: true
+  makeCurrentOnStart: true
+  fov: 1.5707963267948966
+  aspect: 1
+  near: 0.001
+  far: 500
+- !EditorCameraController
+  instanceId: 16b3b9c16c0044328ea6033c84cf0b2d
+  gameObject: 096570bfd0ea4e938cef4726a010d09e
+  localEnabled: true
