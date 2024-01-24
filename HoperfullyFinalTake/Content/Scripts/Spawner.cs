@@ -11,6 +11,7 @@ using LinearAlgebra;
 using Engine;
 using Engine.BaseAssets.Components;
 using Editor;
+using Engine.BaseAssets.Components.Colliders;
 
 namespace HoperfullyFinalTake.Content.Scripts
 {
@@ -26,18 +27,25 @@ namespace HoperfullyFinalTake.Content.Scripts
 
 
         }
-        public override void Update()
-        {
-            GameObject Obstacle = GameObject.Instantiate("Obstacle");
-            Obstacle.Transform.Position = GameObject.Transform.Position;
-            Obstacle.Transform.LocalScale = new LinearAlgebra.Vector3(1, 1, 1);
-            Obstacle.AddComponent<MovingObject>();
-            Obstacle.AddComponent<MeshComponent>();
-            Obstacle.GetComponent<MeshComponent>().Model = model;
-            Obstacle.AddComponent<Rigidbody>();
-            
+        public override void Update() {
+            time += Time.DeltaTime;
+            if (time > spawnTime)
+            {
+                GameObject Obstacle = GameObject.Instantiate("Obstacle");
+                Obstacle.Transform.Position = GameObject.Transform.Position;
+                Obstacle.AddComponent<CubeCollider>();
+                Obstacle.GetComponent<CubeCollider>().Size = new Vector3(2, 2, 2);
+                Obstacle.Transform.LocalScale = new LinearAlgebra.Vector3(1, 1, 1);
+                Obstacle.AddComponent<MovingObject>();
+                Obstacle.AddComponent<MeshComponent>();
+                Obstacle.GetComponent<MeshComponent>().Model = model;
+                Obstacle.AddComponent<Rigidbody>();
+                Obstacle.GetComponent<Rigidbody>().ignoreGravity = true;
+          
+                time = 0;
+            }
 
-           
+
         }
     }
 }

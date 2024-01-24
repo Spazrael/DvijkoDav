@@ -69,6 +69,10 @@ pathToGuidsMap:
   - 5a5c976bc7594c9a9b61dcf1e83d108a
   BaseAssets\Shaders\VolumetricRender\volume.vsh:
   - 02d4c14179a84d8bbe2d992419857ec1
+  Scripts\Spawner.cs:
+  - f89b18b2966a4371a9b7f2cf9c26be71
+  Textures\cube_DefaultMaterial_BaseMap.png:
+  - 3d79061ad7a0459b8336cd6dffde0a43
 guidToDataTypeMap:
   e2f3863aca874599950c84d216e89ea1: Engine.AssetsData.MaterialData, Engine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   7b299d8a440d456eb999c0980201e9f7: Engine.AssetsData.ModelData, Engine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
@@ -105,3 +109,5 @@ guidToDataTypeMap:
   7018f23a0b9e411b8812ccd05dafd468: Engine.AssetsData.ShaderData, Engine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   5a5c976bc7594c9a9b61dcf1e83d108a: Engine.AssetsData.ShaderData, Engine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   02d4c14179a84d8bbe2d992419857ec1: Engine.AssetsData.ShaderData, Engine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  f89b18b2966a4371a9b7f2cf9c26be71: Engine.AssetsData.ScriptData, Engine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  3d79061ad7a0459b8336cd6dffde0a43: Engine.AssetsData.TextureData, Engine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null

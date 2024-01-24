@@ -14,7 +14,8 @@ SerializableObjects:
   instanceId: 0cc0e73ffe5e42578894725291bd0507
   gameObject: c30c59148f384d91991060ade514b54f
   Rotation:
-    w: 1
+    w: 6.123233995736766E-17
+    y: 1
   Scale:
     x: 50
     y: 50
@@ -38,7 +39,6 @@ SerializableObjects:
   linearDrag: 0.05
   angularDrag: 0.05
   isStatic: true
-  useGravity: true
 - !CubeCollider
   instanceId: bb99b7f7e4ef4319aaec53946b0ddeb0
   gameObject: c30c59148f384d91991060ade514b54f
@@ -60,10 +60,10 @@ SerializableObjects:
   instanceId: c3a52a3937ee475fac2b57d3f41f8dbe
   gameObject: aaf7c5dd1cec4790b1f719cf272c9264
   Rotation:
-    w: 0.8535533905932737
-    x: -0.35355339059327384
-    y: -0.14644660940672627
-    z: -0.3535533905932738
+    w: 0.9924038765061041
+    x: -0.08682408883346518
+    y: -0.00759612349389597
+    z: -0.08682408883346517
   Scale:
     x: 1
     y: 1
@@ -121,7 +121,6 @@ SerializableObjects:
   freezeRotationX: true
   freezeRotationY: true
   freezeRotationZ: true
-  useGravity: true
 - !TestComponent
   instanceId: a99c9d0d4a364cdfbfd66ca9ff346e95
   gameObject: 919d7ecadff54587b5997270dc68925c
@@ -149,6 +148,7 @@ SerializableObjects:
   instanceId: be0ebb09a96f41c1a88b4c7051d8f1c2
   gameObject: 096570bfd0ea4e938cef4726a010d09e
   Position:
+    y: -20
     z: 10
   Rotation:
     w: 1
@@ -170,80 +170,18 @@ SerializableObjects:
   gameObject: 096570bfd0ea4e938cef4726a010d09e
   localEnabled: true
 - !GameObject
-  instanceId: f5d39199446d401cb84cb6a9c433c6bf
-  name: Obstacle
+  instanceId: 053f337111c84cc38cd032c49087e63d
+  name: Spawner
   localEnabled: true
-  transform: 79248c597133444c9fe0d8d8270522ed
+  transform: 03150956b641415abde52d78598cdf95
   components:
-  - 79248c597133444c9fe0d8d8270522ed
-  - 3b5afb6d9b83451c81abd64c0170177a
-  - 836d313cdf704bbc9ef7fd4c08838c83
-  - c2b9cb53500d463595eb47820814a116
-  - bc8e480a17e44f01a4555efbd44de4ec
+  - 03150956b641415abde52d78598cdf95
+  - 1e0c8528d02c47058b20c5f4e4b254c8
 - !Transform
-  instanceId: 79248c597133444c9fe0d8d8270522ed
-  gameObject: f5d39199446d401cb84cb6a9c433c6bf
+  instanceId: 03150956b641415abde52d78598cdf95
+  gameObject: 053f337111c84cc38cd032c49087e63d
   Position:
-    x: 10
-    z: 2
-  Rotation:
-    w: 1
-  Scale:
-    x: 1
-    y: 1
-    z: 1
-- !MeshComponent
-  instanceId: 3b5afb6d9b83451c81abd64c0170177a
-  gameObject: f5d39199446d401cb84cb6a9c433c6bf
-  localEnabled: true
-  model: 7b299d8a440d456eb999c0980201e9f7
-  materials:
-  - e2f3863aca874599950c84d216e89ea1
-- !MovingObject
-  instanceId: 836d313cdf704bbc9ef7fd4c08838c83
-  gameObject: f5d39199446d401cb84cb6a9c433c6bf
-  localEnabled: true
-  Speed: 5
-- !CubeCollider
-  instanceId: c2b9cb53500d463595eb47820814a116
-  gameObject: f5d39199446d401cb84cb6a9c433c6bf
-  localEnabled: true
-  massPart: 1
-  size:
-    x: 2
-    y: 2
-    z: 2
-- !Rigidbody
-  instanceId: bc8e480a17e44f01a4555efbd44de4ec
-  gameObject: f5d39199446d401cb84cb6a9c433c6bf
-  localEnabled: true
-  mass: 1
-  inertiaTensor:
-    x: 1
-    y: 1
-    z: 1
-  linearDrag: 0.05
-  angularDrag: 0.05
-  freezeRotationX: true
-  freezeRotationY: true
-  freezeRotationZ: true
-  useGravity: true
-- !GameObject
-  instanceId: 8b6307e920314de1b25112d0b2949c4f
-  name: Obstacle
-  localEnabled: true
-  transform: cb104801dfd54feaaa42a907a325c057
-  components:
-  - cb104801dfd54feaaa42a907a325c057
-  - bd182cbe20ed4e14a65bb890531f5e19
-  - 001aa1abf66b4f9bbceda20af07b07fa
-  - 866cbac8d9b84a01acdad7a98eed0b02
-  - 914e7ef0b3c94c60853aaf3afba911e9
-- !Transform
-  instanceId: cb104801dfd54feaaa42a907a325c057
-  gameObject: 8b6307e920314de1b25112d0b2949c4f
-  Position:
-    x: 10
+    x: 15
     z: 5
   Rotation:
     w: 1
@@ -251,39 +189,89 @@ SerializableObjects:
     x: 1
     y: 1
     z: 1
+- !Spawner
+  instanceId: 1e0c8528d02c47058b20c5f4e4b254c8
+  gameObject: 053f337111c84cc38cd032c49087e63d
+  localEnabled: true
+  model: 7b299d8a440d456eb999c0980201e9f7
+  spawnTime: 3
+- !GameObject
+  instanceId: 33ec764a4b384a8c8e25303a42719fa3
+  name: UpFloor
+  localEnabled: true
+  transform: 260aa8d9068145d38fa62b91b7c1b00d
+  components:
+  - 260aa8d9068145d38fa62b91b7c1b00d
+  - c6c768e7cc8942fabe804c64c17688bd
+  - f3a971ea32bf496e8cd74a44c9ffed8a
+  - afb977139dab4f96a7b34ef0b5334e99
+- !Transform
+  instanceId: 260aa8d9068145d38fa62b91b7c1b00d
+  gameObject: 33ec764a4b384a8c8e25303a42719fa3
+  Position:
+    z: 15
+  Rotation:
+    w: 6.123233995736766E-17
+    y: 1
+  Scale:
+    x: 50
+    y: 50
+    z: 1
 - !MeshComponent
-  instanceId: bd182cbe20ed4e14a65bb890531f5e19
-  gameObject: 8b6307e920314de1b25112d0b2949c4f
+  instanceId: c6c768e7cc8942fabe804c64c17688bd
+  gameObject: 33ec764a4b384a8c8e25303a42719fa3
   localEnabled: true
   model: 7b299d8a440d456eb999c0980201e9f7
   materials:
-  - e2f3863aca874599950c84d216e89ea1
-- !MovingObject
-  instanceId: 001aa1abf66b4f9bbceda20af07b07fa
-  gameObject: 8b6307e920314de1b25112d0b2949c4f
+  - 3b663243c83b4a1fbf4e540bd78b49dc
+- !Rigidbody
+  instanceId: f3a971ea32bf496e8cd74a44c9ffed8a
+  gameObject: 33ec764a4b384a8c8e25303a42719fa3
   localEnabled: true
-  Speed: 5
+  mass: 1
+  inertiaTensor:
+    x: 2
+    y: 2
+    z: 1
+  linearDrag: 0.05
+  angularDrag: 0.05
+  isStatic: true
 - !CubeCollider
-  instanceId: 866cbac8d9b84a01acdad7a98eed0b02
-  gameObject: 8b6307e920314de1b25112d0b2949c4f
+  instanceId: afb977139dab4f96a7b34ef0b5334e99
+  gameObject: 33ec764a4b384a8c8e25303a42719fa3
   localEnabled: true
   massPart: 1
   size:
     x: 2
     y: 2
     z: 2
-- !Rigidbody
-  instanceId: 914e7ef0b3c94c60853aaf3afba911e9
-  gameObject: 8b6307e920314de1b25112d0b2949c4f
+- !GameObject
+  instanceId: a797a5721b19432ab23f15ec4667ce51
+  name: Light
   localEnabled: true
-  mass: 1
-  inertiaTensor:
+  transform: 0fc9b0a106ea408ba52a51f5f3de6953
+  components:
+  - 0fc9b0a106ea408ba52a51f5f3de6953
+  - d7dc9d42a56f4d8985e38216d717493f
+- !Transform
+  instanceId: 0fc9b0a106ea408ba52a51f5f3de6953
+  gameObject: a797a5721b19432ab23f15ec4667ce51
+  Position:
+    y: 50
+  Rotation:
+    w: 1
+  Scale:
     x: 1
     y: 1
     z: 1
-  linearDrag: 0.05
-  angularDrag: 0.05
-  freezeRotationX: true
-  freezeRotationY: true
-  freezeRotationZ: true
-  useGravity: true
+- !PointLight
+  instanceId: d7dc9d42a56f4d8985e38216d717493f
+  gameObject: a797a5721b19432ab23f15ec4667ce51
+  localEnabled: true
+  brightness: 1
+  Color:
+    x: 1
+    y: 1
+    z: 1
+  radius: 100
+  intensity: 0.6
