@@ -115,7 +115,7 @@ SerializableObjects:
   inertiaTensor:
     x: 2
     y: 2
-    z: 1
+    z: 2
   linearDrag: 0.05
   angularDrag: 0.05
   freezeRotationX: true
@@ -135,7 +135,7 @@ SerializableObjects:
   size:
     x: 2
     y: 2
-    z: 1
+    z: 2
 - !GameObject
   instanceId: 096570bfd0ea4e938cef4726a010d09e
   name: Camera
@@ -212,7 +212,7 @@ SerializableObjects:
   size:
     x: 2
     y: 2
-    z: 1
+    z: 2
 - !Rigidbody
   instanceId: bc8e480a17e44f01a4555efbd44de4ec
   gameObject: f5d39199446d401cb84cb6a9c433c6bf
@@ -271,7 +271,7 @@ SerializableObjects:
   size:
     x: 2
     y: 2
-    z: 1
+    z: 2
 - !Rigidbody
   instanceId: 914e7ef0b3c94c60853aaf3afba911e9
   gameObject: 8b6307e920314de1b25112d0b2949c4f

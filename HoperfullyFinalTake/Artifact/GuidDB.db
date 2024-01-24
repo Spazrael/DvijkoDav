@@ -1,5 +1,16 @@
 version: 4
 pathToGuidsMap:
+  Models\cube.fbx:
+  - e2f3863aca874599950c84d216e89ea1
+  - 7b299d8a440d456eb999c0980201e9f7
+  Models\FloorTexture.mat:
+  - 3b663243c83b4a1fbf4e540bd78b49dc
+  Scenes\TestScene.scene:
+  - 1eee686e5a604540b5d7e371801888fb
+  Scripts\MovingObject.cs:
+  - 2bf58e6adeca48548526ed722ecb384e
+  Scripts\TestComponent.cs:
+  - ab6303416f444780b9a865d3b525fd84
   BaseAssets\Shaders\depth_only.fsh:
   - d91d6cbe4f094f37a8167666b765370b
   BaseAssets\Shaders\depth_only.vsh:
@@ -58,18 +69,13 @@ pathToGuidsMap:
   - 5a5c976bc7594c9a9b61dcf1e83d108a
   BaseAssets\Shaders\VolumetricRender\volume.vsh:
   - 02d4c14179a84d8bbe2d992419857ec1
-  Scripts\TestComponent.cs:
-  - ab6303416f444780b9a865d3b525fd84
-  Scenes\TestScene.scene:
-  - 1eee686e5a604540b5d7e371801888fb
-  Models\cube.fbx:
-  - e2f3863aca874599950c84d216e89ea1
-  - 7b299d8a440d456eb999c0980201e9f7
-  Models\FloorTexture.mat:
-  - 3b663243c83b4a1fbf4e540bd78b49dc
-  Scripts\MovingObject.cs:
-  - 2bf58e6adeca48548526ed722ecb384e
 guidToDataTypeMap:
+  e2f3863aca874599950c84d216e89ea1: Engine.AssetsData.MaterialData, Engine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  7b299d8a440d456eb999c0980201e9f7: Engine.AssetsData.ModelData, Engine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  3b663243c83b4a1fbf4e540bd78b49dc: Engine.AssetsData.MaterialData, Engine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  1eee686e5a604540b5d7e371801888fb: Engine.AssetsData.SceneData, Engine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  2bf58e6adeca48548526ed722ecb384e: Engine.AssetsData.ScriptData, Engine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  ab6303416f444780b9a865d3b525fd84: Engine.AssetsData.ScriptData, Engine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   d91d6cbe4f094f37a8167666b765370b: Engine.AssetsData.ShaderData, Engine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   e83c341c8e914295b21e8e440accd61f: Engine.AssetsData.ShaderData, Engine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   5db2d1e3d0be4d7e840156dd62290ca4: Engine.AssetsData.ShaderData, Engine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
@@ -99,9 +105,3 @@ guidToDataTypeMap:
   7018f23a0b9e411b8812ccd05dafd468: Engine.AssetsData.ShaderData, Engine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   5a5c976bc7594c9a9b61dcf1e83d108a: Engine.AssetsData.ShaderData, Engine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   02d4c14179a84d8bbe2d992419857ec1: Engine.AssetsData.ShaderData, Engine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  ab6303416f444780b9a865d3b525fd84: Engine.AssetsData.ScriptData, Engine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  1eee686e5a604540b5d7e371801888fb: Engine.AssetsData.SceneData, Engine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  e2f3863aca874599950c84d216e89ea1: Engine.AssetsData.MaterialData, Engine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  7b299d8a440d456eb999c0980201e9f7: Engine.AssetsData.ModelData, Engine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  3b663243c83b4a1fbf4e540bd78b49dc: Engine.AssetsData.MaterialData, Engine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  2bf58e6adeca48548526ed722ecb384e: Engine.AssetsData.ScriptData, Engine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
