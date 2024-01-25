@@ -28,7 +28,7 @@ namespace HoperfullyFinalTake.Content.Scripts
             if (Input.IsKeyPressed(System.Windows.Input.Key.E)) 
             {
                 GameObject.GetComponent<Rigidbody>()?.AddImpulse(new Vector3(0, 0, 1) * Impulse);
-                //GameObject.GetComponent<SoundSource>()?.play(sound);
+                GameObject.GetComponent<SoundSource>()?.play(sound);
             }
         }
     }

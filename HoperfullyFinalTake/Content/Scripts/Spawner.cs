@@ -61,7 +61,7 @@ namespace HoperfullyFinalTake.Content.Scripts
                 Obstacle.AddComponent<MeshComponent>();
                 Obstacle.GetComponent<MeshComponent>().Model = model;
                 Obstacle.AddComponent<Rigidbody>();
-                Obstacle.GetComponent<Rigidbody>().ignoreGravity = true;
+                //Obstacle.GetComponent<Rigidbody>().ignoreGravity = true;
           
                 time = 0;
             }
