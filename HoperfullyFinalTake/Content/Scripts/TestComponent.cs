@@ -13,7 +13,7 @@ namespace HoperfullyFinalTake.Content.Scripts
     public class TestComponent : BehaviourComponent
     {
         [SerializedField]
-        private Mesh mesh;
+        private Sound sound = null;
         [SerializedField]
         private double Impulse = 5;
         private Random random = new Random();
@@ -28,6 +28,7 @@ namespace HoperfullyFinalTake.Content.Scripts
             if (Input.IsKeyPressed(System.Windows.Input.Key.E)) 
             {
                 GameObject.GetComponent<Rigidbody>()?.AddImpulse(new Vector3(0, 0, 1) * Impulse);
+                //GameObject.GetComponent<SoundSource>()?.play(sound);
             }
         }
     }

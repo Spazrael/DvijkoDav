@@ -91,6 +91,7 @@ SerializableObjects:
   - 473a3f4c287f41738f8d3b92723fc0c4
   - a99c9d0d4a364cdfbfd66ca9ff346e95
   - 6a68cbb49f084e43a50b7d2dac7ed445
+  - 1a36fe751d114c21ad45b82208808421
 - !Transform
   instanceId: a7fdc642227340b792d1098399d19088
   gameObject: 919d7ecadff54587b5997270dc68925c
@@ -127,6 +128,7 @@ SerializableObjects:
   instanceId: a99c9d0d4a364cdfbfd66ca9ff346e95
   gameObject: 919d7ecadff54587b5997270dc68925c
   localEnabled: true
+  sound: 3396b93cd50b402f8a57c1527b8daf70
   Impulse: 5
 - !CubeCollider
   instanceId: 6a68cbb49f084e43a50b7d2dac7ed445
@@ -137,6 +139,10 @@ SerializableObjects:
     x: 2
     y: 2
     z: 2
+- !SoundSource
+  instanceId: 1a36fe751d114c21ad45b82208808421
+  gameObject: 919d7ecadff54587b5997270dc68925c
+  localEnabled: true
 - !GameObject
   instanceId: 096570bfd0ea4e938cef4726a010d09e
   name: Camera
@@ -146,6 +152,7 @@ SerializableObjects:
   - be0ebb09a96f41c1a88b4c7051d8f1c2
   - fbc9fa4aa43a4a90a32dde35ee13fa0a
   - 16b3b9c16c0044328ea6033c84cf0b2d
+  - 7da1afe23c6e43769920053c00e41aa2
 - !Transform
   instanceId: be0ebb09a96f41c1a88b4c7051d8f1c2
   gameObject: 096570bfd0ea4e938cef4726a010d09e
@@ -170,6 +177,10 @@ SerializableObjects:
   far: 500
 - !EditorCameraController
   instanceId: 16b3b9c16c0044328ea6033c84cf0b2d
+  gameObject: 096570bfd0ea4e938cef4726a010d09e
+  localEnabled: true
+- !SoundListener
+  instanceId: 7da1afe23c6e43769920053c00e41aa2
   gameObject: 096570bfd0ea4e938cef4726a010d09e
   localEnabled: true
 - !GameObject
@@ -197,7 +208,7 @@ SerializableObjects:
   gameObject: 053f337111c84cc38cd032c49087e63d
   localEnabled: true
   model: 7b299d8a440d456eb999c0980201e9f7
-  spawnTime: 3
+  spawnTime: 1
 - !GameObject
   instanceId: 33ec764a4b384a8c8e25303a42719fa3
   name: UpFloor

@@ -113,6 +113,10 @@ pathToGuidsMap:
   - 7f46fa941f4d464a98e724c91fcf2c2f
   Models\Pristroika1.mat:
   - 4875a168a408457f889e6a7c97b2c50f
+  Scenes\NewScene.scene:
+  - f84d97bfb6c5447790432dd7e7cff095
+  Sounds\350904__cabled_mess__jump_c_02.wav:
+  - 3396b93cd50b402f8a57c1527b8daf70
 guidToDataTypeMap:
   e2f3863aca874599950c84d216e89ea1: Engine.AssetsData.MaterialData, Engine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   7b299d8a440d456eb999c0980201e9f7: Engine.AssetsData.ModelData, Engine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
@@ -174,3 +178,5 @@ guidToDataTypeMap:
   9ea83e63a9da48cbabd3c67cd7f5f988: Engine.AssetsData.MaterialData, Engine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   7f46fa941f4d464a98e724c91fcf2c2f: Engine.AssetsData.TextureData, Engine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   4875a168a408457f889e6a7c97b2c50f: Engine.AssetsData.MaterialData, Engine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  f84d97bfb6c5447790432dd7e7cff095: Engine.AssetsData.SceneData, Engine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  3396b93cd50b402f8a57c1527b8daf70: Engine.AssetsData.SoundData, Engine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null

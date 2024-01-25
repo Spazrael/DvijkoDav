@@ -22,6 +22,7 @@ namespace HoperfullyFinalTake.Content.Scripts
         private double time = 0;
         [SerializedField]
         private double spawnTime = 3;
+        private int PrefabIndex = 0;
         public override void Start()
         {
 
@@ -31,11 +32,31 @@ namespace HoperfullyFinalTake.Content.Scripts
             time += Time.DeltaTime;
             if (time > spawnTime)
             {
+                Random rnd = new Random();
+                int PrefabIndex = rnd.Next(1, 3);
+                double PrefabPositionZ = rnd.NextDouble() * 12 - 3;
+           
                 GameObject Obstacle = GameObject.Instantiate("Obstacle");
                 Obstacle.Transform.Position = GameObject.Transform.Position;
+                Obstacle.Transform.Position += new Vector3(0,0,PrefabPositionZ);
                 Obstacle.AddComponent<CubeCollider>();
                 Obstacle.GetComponent<CubeCollider>().Size = new Vector3(2, 2, 2);
-                Obstacle.Transform.LocalScale = new LinearAlgebra.Vector3(1, 1, 1);
+                switch (PrefabIndex)
+                {
+                    case 1:
+                        Obstacle.Transform.LocalScale = new LinearAlgebra.Vector3(1, 1, 1.6);
+                        break;
+                    case 2:
+                        Obstacle.Transform.LocalScale = new LinearAlgebra.Vector3(1.5, 1, 2);
+                        break;
+                    case 3:
+                        Obstacle.Transform.LocalScale = new LinearAlgebra.Vector3(1.15, 1.5, 1.5);
+                        break;
+                    default:
+                        break;
+
+                }
+
                 Obstacle.AddComponent<MovingObject>();
                 Obstacle.AddComponent<MeshComponent>();
                 Obstacle.GetComponent<MeshComponent>().Model = model;
