@@ -174,7 +174,7 @@ SerializableObjects:
   fov: 1.5707963267948966
   aspect: 1
   near: 0.001
-  far: 500
+  far: 1000
 - !EditorCameraController
   instanceId: 16b3b9c16c0044328ea6033c84cf0b2d
   gameObject: 096570bfd0ea4e938cef4726a010d09e
@@ -695,3 +695,32 @@ SerializableObjects:
   localEnabled: true
   Speed: 5
   respawnPositionX: -100
+- !GameObject
+  instanceId: 8ca06b842f244142a598103663de2f6c
+  name: PseudoSkybox
+  localEnabled: true
+  transform: fd1cb65a058f44feab1d4f302d968325
+  components:
+  - fd1cb65a058f44feab1d4f302d968325
+  - 0d9e186a0a3e4c8b9184bdd643285a83
+- !Transform
+  instanceId: fd1cb65a058f44feab1d4f302d968325
+  gameObject: 8ca06b842f244142a598103663de2f6c
+  Position:
+    x: 400
+    y: 500
+    z: 3
+  Rotation:
+    y: 0.7071067811865477
+    z: 0.7071067811865477
+  Scale:
+    x: 1500
+    y: 500
+    z: 100
+- !MeshComponent
+  instanceId: 0d9e186a0a3e4c8b9184bdd643285a83
+  gameObject: 8ca06b842f244142a598103663de2f6c
+  localEnabled: true
+  model: f9a49bc95efc4aacaba2d9d854efe45a
+  materials:
+  - 3259d254dacd4f2291223bfe11e7a180

@@ -117,6 +117,13 @@ pathToGuidsMap:
   - f84d97bfb6c5447790432dd7e7cff095
   Sounds\350904__cabled_mess__jump_c_02.wav:
   - 3396b93cd50b402f8a57c1527b8daf70
+  Models\Plane.fbx:
+  - 93c6ff5284a541afb335c643e3565b25
+  - f9a49bc95efc4aacaba2d9d854efe45a
+  Textures\f2c253deff0bf3d1412b76e21b77b80c.jpg:
+  - 07547a00005c41c0bef437a2176c6084
+  Models\PseudoSkybox.mat:
+  - 3259d254dacd4f2291223bfe11e7a180
 guidToDataTypeMap:
   e2f3863aca874599950c84d216e89ea1: Engine.AssetsData.MaterialData, Engine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   7b299d8a440d456eb999c0980201e9f7: Engine.AssetsData.ModelData, Engine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
@@ -180,3 +187,7 @@ guidToDataTypeMap:
   4875a168a408457f889e6a7c97b2c50f: Engine.AssetsData.MaterialData, Engine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   f84d97bfb6c5447790432dd7e7cff095: Engine.AssetsData.SceneData, Engine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   3396b93cd50b402f8a57c1527b8daf70: Engine.AssetsData.SoundData, Engine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  93c6ff5284a541afb335c643e3565b25: Engine.AssetsData.MaterialData, Engine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  f9a49bc95efc4aacaba2d9d854efe45a: Engine.AssetsData.ModelData, Engine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  07547a00005c41c0bef437a2176c6084: Engine.AssetsData.TextureData, Engine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  3259d254dacd4f2291223bfe11e7a180: Engine.AssetsData.MaterialData, Engine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
